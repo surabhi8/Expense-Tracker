@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
-     "lint:write":""
+    "lint:write": ""
   },
   "repository": {
     "type": "git",
@@ -19,12 +19,14 @@
   },
   "homepage": "https://github.com/surabhi8/Expense-Tracker#readme",
   "dependencies": {
-    "hapi": "^16.7.0",
-    "nodemon": "^1.19.1"
+    "hapi": "^16.7.0"
   },
   "devDependencies": {
     "@hapi/lab": "^19.1.0",
     "eslint": "^6.0.1",
-    "eslint-config-airbnb": "^17.1.0"
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "nodemon": "^1.19.1"
   }
 }
